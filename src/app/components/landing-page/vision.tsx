@@ -20,7 +20,7 @@ export default function Vision(){
             <div className="flex flex-col gap-12">
 
                 <div className="font-secondary text-xl text-neutral-500">
-                    We believe that fashion is more than just clothing; it&aposs a form of self-expression and a way to connect with others. Our vision is to create a brand that embodies the spirit of Japanese streetwear, blending traditional craftsmanship with modern design to create unique and stylish pieces that resonate with our audience.
+                    We believe that fashion is more than just clothing; it&aposs a form of self-expression and a way to connect with others. Our vision is to create a brand that embodies the spirit of Japanese streetwear.
                 </div>
                 <div className="w-full h-auto">
                     <Image 
