@@ -14,11 +14,11 @@ export default function Collection(){
 
             {/* titles */}
 
-            <div className="max-w-7xl mx-auto flex flex-col mt-0 gap-6 pl-44">
+            <div className="max-w-7xl mx-auto flex flex-col mt-0 gap-9 pl-44">
 
                 <div className="flex flex-row gap-10 justify-between w-full items-start">
 
-                    <div className="font-primary uppercase text-6xl text-lime-100">
+                    <div className="font-primary uppercase text-7xl text-lime-100">
                         Explore our collections
                     </div>
                     
@@ -29,13 +29,12 @@ export default function Collection(){
 
                 {/* collection maps: 4 stacked horizontal rows */}
 
-                <div className="flex flex-col gap-">
+                <div className="flex flex-col">
                     {collections.slice(0, 4).map((collection) => (
                         <div
                             key={collection.link ?? collection.title}
                             className="group relative border-b border-neutral-500 w-full h-32 overflow-hidden"
                         >
-                            {/* background image layer (appears on hover) */}
                             <div
                                 className="absolute inset-0 bg-center  bg-cover opacity-0 transition-opacity duration-300 group-hover:opacity-100"
                                 style={{ backgroundImage: collection.image ? `url(${collection.image})` : "none" }}
