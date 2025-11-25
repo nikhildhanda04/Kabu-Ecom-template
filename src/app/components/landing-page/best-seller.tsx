@@ -4,7 +4,7 @@ import ProductCard from "../products/product-card"
 export default function BestSeller(){
     return(
         <>
-        <div className="flex sticky px-18 py-32 gap-32 overflow-hidden justify-between items-center bg-black">
+        <div className="flex sticky top-1 px-18 py-32 gap-32 overflow-hidden justify-between items-center bg-black">
 
             <div className="flex flex-col gap-8">
 
